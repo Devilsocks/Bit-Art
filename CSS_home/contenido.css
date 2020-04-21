@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f580ba;
+}
+
+.bloquetitulo {
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.parrafotitulo {
+    letter-spacing: 1px;
+    font-family: 'Lobster', cursive;
+    color: teal;
+    font-size: 26px;
+    margin-top: -30px;
+}
+
+.iconoart {
+    padding-top: 55px;
+}
+
+.bloquetitulo2 {
+    width: 100%;
+    display: inline-block;
+    font-size: 35px;
+    letter-spacing: 5px;
+    margin: 0;
+    padding-top: 35px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: #f580ba;
+
+    background-image: url(../imagenes/fondo\ ladri.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.parrafotitulo2 {
+    letter-spacing: 1px;
+    font-family: cursive;
+    float: right;
+    color: yellow;
+    font-size: 24px;
+    margin-right: 85px;
+}
+
+.fotografia {
+    text-align: center;
+    font-size: 40px;
+    color: teal;
+    padding-bottom: 15%;
+}
+
+.fotograf {
+    width: 800px;
+    display: block;
+    margin: 135px auto;
+    border-radius: 15px;
+}

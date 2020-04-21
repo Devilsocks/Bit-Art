@@ -1,0 +1,155 @@
+.iconobitart {
+    background: #e958a1;
+    padding-top: 15px;
+}
+
+.img_logo {
+    width: 150px;
+    height: 180px;
+    margin: 0 auto;
+    display: block;
+}
+
+.main_header {
+    text-align: center;
+    width: 100%;
+    background: #f580ba;
+    font-size: 26px;
+    font-family: 'Lobster', cursive;
+    margin-top: -4px;
+}
+
+#boton_menu {
+    display: none;
+}
+
+.icono_menu {
+    padding-top: 30px;
+}
+
+header label {
+    display: none;
+    width: 100px;
+    padding: 10px;
+    border-right: 1px solid #ffffff;
+}
+
+header label:hover {
+    cursor: pointer;
+    background-color: teal;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-flex;
+}
+
+.menu li {
+    padding: 20px 25px 0px 25px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li a:hover {
+    text-decoration: overline;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-flex;
+}
+
+.dropbtn {
+    background-color: #e958a1;
+    font-size: 26px;
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Lobster', cursive;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: teal;
+    min-width: 160px;
+    z-index: 1;
+    /*superponer*/
+    margin-top: 65px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: chartreuse;
+}
+
+.dropdown:hover .dropbtn {
+    color: rgb(255, 255, 255);
+    text-decoration: overline;
+}
+
+@media (max-width:920px) {
+
+    header label {
+        display: block;
+        height: 60px;
+    }
+
+    .menu {
+        position: absolute;
+        background-color: teal;
+        width: 100%;
+        margin-left: -100%;
+        z-index: 100;
+        transition: all 0,9s;
+    }
+
+    #boton_menu:checked ~ .menu{
+        margin: 0;
+    }
+
+    .menu ul{
+        display: block;
+    }
+
+    .menu li:hover {
+        background-color: chartreuse;
+    }
+
+    .dropbtn {
+        background-color: teal;
+        color: white;
+    }
+
+    .dropdown-content a {
+        color: rgb(255, 255, 255);
+    }
+
+    .dropdown-content a:hover {
+        color: teal;
+        background-color: chartreuse;
+    }
+
+    .dropdown:hover .dropbtn {
+        color: chartreuse;
+        background-color: teal;
+    }
+
+
+}

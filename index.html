@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BitArt</title>
+    <link rel="icon" href="iconos/spray.png">
+    <link rel="stylesheet" href="CSS_home/menu.css">
+    <link rel="stylesheet" href="CSS_home/slider.css">
+    <link rel="stylesheet" href="CSS_home/contenido.css">
+    <link rel="stylesheet" href="CSS_home/footer.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="iconobitart">
+        <img class="img_logo" src="iconos/headphones.png" alt="logobitart">
+    </header>
+
+    <header class="main_header">
+
+        <input type="checkbox" id="boton_menu">
+        <label class="icono_menu" for="boton_menu">
+            <img src="iconos/iconomenu.png" alt="menu" width="35px" height="35px">
+        </label>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a target="_blank" href="obras/obras.html">Obras</a></li>
+            </ul>
+
+            <div class="dropdown">
+                <button class="dropbtn">More</button>
+                <div class="dropdown-content">
+                    <a href="#seccion1">Sección 1</a>
+                    <a href="#seccion2">Sección 2</a>
+                    <a href="#seccion3">Sección 3</a>
+                    <a href="#info">Info</a>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <section>
+
+        <article>
+
+            <ul class="slider-portada">
+                <li>
+                    <input type="radio" id="sbutton1" name="sradio" checked>
+                    <label for="sbutton1"></label>
+
+                    <img src="imagenes/principal.jpg" alt="lagrande">
+                </li>
+
+                <li>
+                    <input type="radio" id="sbutton2" name="sradio">
+                    <label for="sbutton2"></label>
+
+                    <img src="imagenes/Banksy-7.jpg" alt="Banksy">
+                </li>
+
+                <li>
+                    <input type="radio" id="sbutton3" name="sradio">
+                    <label for="sbutton3"></label>
+
+                    <img src="imagenes/KobraClub27.jpg" alt="Kobraclub">
+                </li>
+
+                <li>
+                    <input type="radio" id="sbutton4" name="sradio">
+                    <label for="sbutton4"></label>
+
+                    <img src="imagenes/PrImg_4468.jpg" alt="Grafiti">
+                </li>
+
+            </ul>
+
+        </article>
+
+    </section>
+
+    <article id="seccion1" class="bloquetitulo">
+
+        <h1>Bienvenidos a BitArt</h1>
+
+        <section class="parrafotitulo">
+
+            <p>BitArt va por las calles buscando las mejores paredes de colores, para llevarlas <br>
+                a la pantalla, y que ustedes puedan apreciar a los artistas del muro. </p>
+
+            <div class="iconoart">
+
+                <img src="iconos/spray grande.png" alt="spraygrande">
+
+            </div>
+        </section>
+
+    </article>
+
+    <article id="seccion2" class="bloquetitulo2">
+        <h2>Grafiteros famosos</h2>
+
+        <section class="parrafotitulo2">
+            <hr width="600px" color="yellow">
+            <p>
+                Estos son. Simplemente has <span style="color: white;">click</span> en el video.
+            </p>
+        </section>
+
+        <section class="videopintores">
+
+            <video src="video/Top 10 Mejores grafiteros del mundo.mp4" width="510px" height="400px" controls>
+            </video>
+
+        </section>
+
+    </article>
+
+    <figure id="seccion3" class="fotografia">
+
+        <img src="imagenes/SYG19P16F2_11756.jpg" alt="otrograff" class="fotograf">
+
+        <i><q>If you get tired, learn to rest, not to quit</q></i>
+        <p>Banksy</p>
+
+    </figure>
+
+    <footer id="info">
+
+        <section class="partefooter">
+
+            <h3 class="titulomapa">Puedes revisar estas paredes:</h3>
+
+            <div class="contenidofooter">
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1988.4322589771982!2d-74.06520294214863!3d4.61824827266404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f998f96bf60d1%3A0x67a850f5742b45b4!2sCl.%2033%20%233b-23%20a%203b-1%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1585849157484!5m2!1ses!2sco"
+                    width="500" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0">
+                </iframe>
+
+                <form action="">
+
+                    <h4>Contacto</h4>
+
+                    <input type="text" name="nombre" placeholder="Nombre" maxlength="35px">
+                    <input type="email" name="correo" placeholder="Email">
+                    <input type="tel" name="telefono" placeholder="Teléfono">
+                    <textarea name="mensaje" id="textarea" placeholder="Escriba su mensaje" cols="30" rows="10"></textarea>
+
+                    <label for="textarea"></label>
+                    <input type="submit" id="boton" value="Enviar">
+                    
+                </form>
+
+            </div>
+
+        </section>
+
+        <div class="contenidoiconos">
+
+            <hr width="85%" color="teal">
+
+            <div class="iconosredes">
+                <a href="https://www.facebook.com/Bictia/" target="_blank"> 
+                    <img src="iconos/facebook.png" alt="iconoface">
+                </a>
+
+                <a href="https://www.instagram.com/bictia/" target="_blank">
+                    <img src="iconos/instagram.png" alt="iconoinsta">
+                </a>
+
+            </div>
+            
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
